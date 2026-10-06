@@ -1,0 +1,92 @@
+<!-- Declares that this document is written in HTML5 -->
+<!DOCTYPE html>
+<!-- Opens the root element; lang="en" tells browsers the page is in English -->
+<html lang="en">
+<!-- Opens the head section, which holds information ABOUT the page (not shown on the page itself) -->
+<head>
+    <!-- Sets the character encoding to UTF-8 so special characters like the © symbol display correctly -->
+    <meta charset="UTF-8">
+    <!-- Makes the page scale properly on phones and tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sets the title shown in the browser tab -->
+    <title>My First Web Page</title>
+    <!-- Opens a style block where CSS (visual styling) is written -->
+    <style>
+        /* Styles the whole page body */
+        body {
+            /* Uses a clean, easy-to-read font, falling back to any sans-serif font */
+            font-family: Arial, Helvetica, sans-serif;
+            /* Sets a light gray background color for the page */
+            background-color: #f4f6f8;
+            /* Sets the default text color to dark gray */
+            color: #333333;
+            /* Removes the browser's default outer spacing */
+            margin: 0;
+            /* Adds space inside the body edges */
+            padding: 20px;
+        }
+        /* Styles the main content area */
+        main {
+            /* Limits the content width so lines of text are not too long */
+            max-width: 700px;
+            /* Centers the content horizontally (auto left/right margins) */
+            margin: 40px auto;
+            /* Gives the content box a white background */
+            background-color: #ffffff;
+            /* Adds space inside the content box */
+            padding: 30px;
+            /* Rounds the corners of the box */
+            border-radius: 8px;
+            /* Adds a soft shadow around the box */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+        /* Styles the main heading */
+        h1 {
+            /* Colors the heading dark blue */
+            color: #1a3d6d;
+            /* Draws a line under the heading */
+            border-bottom: 2px solid #1a3d6d;
+            /* Adds space between the heading text and the line */
+            padding-bottom: 10px;
+        }
+        /* Styles the footer */
+        footer {
+            /* Centers the footer text */
+            text-align: center;
+            /* Uses a smaller font size for the footer */
+            font-size: 0.9em;
+            /* Makes the footer text a lighter gray */
+            color: #666666;
+            /* Adds space above the footer */
+            margin-top: 20px;
+        }
+    /* Closes the style block */
+    </style>
+<!-- Closes the head section -->
+</head>
+<!-- Opens the body section, which holds everything visible on the page -->
+<body>
+    <!-- Opens the main content area of the page -->
+    <main>
+        <!-- Displays the main heading of the page -->
+        <h1>My First Web Page</h1>
+        <!-- Displays the username; <strong> makes the label bold -->
+        <p><strong>Username:</strong> sjl333</p>
+        <!-- Displays the course name -->
+        <p><strong>Course Name:</strong> Introduction to Website Development</p>
+        <!-- Displays the course number -->
+        <p><strong>Course Number:</strong> IS117</p>
+        <!-- Displays the course section -->
+        <p><strong>Section:</strong> 001</p>
+    <!-- Closes the main content area -->
+    </main>
+    <!-- Opens the footer, which holds closing information for the page -->
+    <footer>
+        <!-- &copy; is the code for the copyright symbol, followed by my name and the due date -->
+        <p>&copy; Sean Lee | Due Date: 10/06/2026</p>
+    <!-- Closes the footer -->
+    </footer>
+<!-- Closes the body section -->
+</body>
+<!-- Closes the html root element, ending the document -->
+</html>
